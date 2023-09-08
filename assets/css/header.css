@@ -1,0 +1,8 @@
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: gray;
+    border-bottom: 1px solid gray;
+}
+

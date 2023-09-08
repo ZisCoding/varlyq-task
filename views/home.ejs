@@ -1,0 +1,77 @@
+
+<div id="progress-bar-container">
+    <div id="progress-line"></div>
+    <div class="progress-circle circle1">
+        <img width="100%" height="100%" src="/correct.png">
+    </div>
+    <span class="progress-text text1">Basic Information</span>
+    <div class="progress-circle circle2">
+        <img width="100%" height="100%" src="/correct.png">
+    </div>
+    <span class="progress-text text2">Document Upload</span>
+    <div class="progress-circle circle3">
+        <img width="100%" height="100%" src="/correct.png">
+    </div>
+    <span class="progress-text text3">Bank Details</span>
+    <div class="progress-circle circle4">
+        <img width="100%" height="100%" src="/correct.png">
+    </div>
+    <span class="progress-text text4">Other Details</span>
+</div>
+
+<div id="form-container">
+    
+        <form id="form1" action="/create-user/form1" method="post">
+        <div id="patient">
+            <h1 style="width: 100%;"><b>Patient</b></h1>
+            <div>
+                <label for="name">Name*</label><br/>
+                <input type="text" required name="patientName" placeholder="Name">
+            </div>
+            <div>
+                <label for="name">Email*</label><br/>
+                <input type="text" required name="patientEmail" placeholder="Email">
+            </div>
+            <div>
+                <label for="name">Mobile Number*</label><br/>
+                <input type="text" required name="patientMobile" placeholder="Name">
+            </div>
+        </div>
+        <div id="policyHolder">
+            <h1 style="width: 100%;"><b>Policy Holder</b></h1>
+            <div>
+                <label for="name">Name*</label><br/>
+                <input type="text" required name="policyHolderName" placeholder="Name">
+            </div>
+            <div>
+                <label for="name">Email*</label><br/>
+                <input type="text" required name="policyHoldertEmail" placeholder="Email">
+            </div>
+            <div>
+                <label for="name">Mobile Number*</label><br/>
+                <input type="text" required name="policyHolderMobile" placeholder="Name">
+            </div>
+        </div>
+
+        <div id="policyHolder">
+            <h1 style="width: 100%;"><b>Agent</b></h1>
+            <div>
+                <label for="name">Name*</label><br/>
+                <input type="text" required name="agentName" placeholder="Name">
+            </div>
+            <div>
+                <label for="name">Mobile Number*</label><br/>
+                <input type="text" required name="agentMobile" placeholder="Name">
+            </div>
+        </div>
+        
+        <button type="submit">Save and next</button>
+
+    </form>
+
+    
+</div>
+
+
+<script type="text/javascript" src="/js/home.js"></script>
+
